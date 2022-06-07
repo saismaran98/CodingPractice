@@ -7,7 +7,7 @@ public class LearnQueue {
 	public static void main(String[] args) {
 		//implimenting queue as LinkedList
 		Queue<String> coffeeLine=new LinkedList();
-		coffeeLine.offer("Latte");
+		coffeeLine.offer("Latte"); //offer()=add element, returns boolean
 		coffeeLine.offer("Instant Coffee");
 		coffeeLine.offer("Mocha");
 		coffeeLine.offer("Espresso");
